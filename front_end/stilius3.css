@@ -1,0 +1,22 @@
+/* 2 UZDUOTIS ------------------------------------------------------------------------------------------------------------------------
+Take the HTML document created in Exercise 1 and apply CSS styles to enhance its visual appearance. Experiment with different CSS properties to customize the following aspects:
+Font styles (e.g., size, family, weight)
+Background color or image
+Text color
+Margins and padding
+Alignment of elements */
+
+body {background-color: rgb(221, 186, 30);
+}
+p {background-color: chocolate;
+color: darkblue;
+margin-top: 2cap;
+padding-bottom: 1cm;}
+h1 {background-color: coral;
+color: blueviolet;
+font-variant-east-asian: jis78;
+font-family: fantasy; 
+width: max-content;}
+ul {text-align: center;}
+img {display: block;
+margin: auto;}

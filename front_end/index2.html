@@ -1,0 +1,207 @@
+
+<!-- IS GPT -------------------------------------------
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demonstracija visų HTML elementų ir savybių">
+  <title>HTML Demonstruojamasis Pavyzdys</title>
+  <base href="https://example.com/">
+</head>
+<body>
+  <header>
+    <h1>HTML Demonstruojamasis Pavyzdys</h1>
+    <nav>
+      <ul>
+        <li><a href="#pagrindine">Pagrindinės savybės</a></li>
+        <li><a href="#struktura">Struktūros elementai</a></li>
+        <li><a href="#multimedija">Multimedija</a></li>
+        <li><a href="#formos">Formos</a></li>
+        <li><a href="#lenteles">Lentelės</a></li>
+      </ul>
+    </nav>
+    <noscript>
+      <p>Jūsų naršyklė nepalaiko JavaScript.</p>
+    </noscript>
+  </header>
+<!--  
+  <main> 
+    <!-- Pagrindinės HTML savybės 
+    <section id="pagrindine">
+      <h2>Pagrindinės HTML savybės</h2>
+      <p>Čia pademonstruojame įvairius HTML elementus:</p>
+      <ul>
+        <li>Paragrafai <code>&lt;p&gt;</code></li>
+        <li>Antraštės nuo <code>&lt;h1&gt;</code> iki <code>&lt;h6&gt;</code></li>
+        <li>Sąrašai: <code>&lt;ul&gt;</code> ir <code>&lt;ol&gt;</code></li>
+        <li>Nuorodos: <code>&lt;a&gt;</code></li>
+        <li>Teksto formatavimas: <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code>, <code>&lt;mark&gt;</code>, <code>&lt;small&gt;</code></li>
+      </ul>
+      <p>Atkreipkite dėmesį į <mark>žymėjimo</mark> elementą ir naujos eilutės <br> naudojimą.</p>
+      <blockquote cite="https://www.w3.org/TR/html52/">
+        "HTML yra standartinė žymėjimo kalba interneto puslapiams kurti."
+      </blockquote>
+      <p>Chemijos formulė: H<sub>2</sub>O, energijos lygis: 10<sup>3</sup> kJ.</p>
+    </section>
+ 
+    <!-- Struktūros ir semantikos elementai -->
+    <section id="struktura">
+        <h2>Struktūros ir semantikos elementai</h2>
+        <article>
+          <header>
+            <h3>Straipsnis apie HTML</h3>
+            <time datetime="2025-03-12">2025-03-12</time>
+          </header>
+          <p>Šis straipsnis demonstruoja <abbr title="HyperText Markup Language">HTML</abbr> semantines savybes, įskaitant <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code> ir <code>&lt;nav&gt;</code> elementus.</p>
+          <p><span>Šis tekstas</span> demonstruoja <bdi>atkarpų</bdi> naudojimą ir <bdo dir="rtl">teksto krypties keitimą</bdo>.</p>
+          <p>Paspauskite <kbd>Ctrl</kbd> + <kbd>C</kbd> kopijuoti.</p>
+          <footer>
+            <p>Autorius: <address>info@htmldemonstruojamasis.lt</address></p>
+          </footer>
+        </article>
+        <aside>
+          <h4>Šoninė informacija</h4>
+          <p>Tai papildoma informacija apie HTML struktūrą.</p>
+        </aside>
+      </section>
+   
+      <!-- Multimedijos demonstracija -->
+      <section id="multimedija">
+        <h2>Multimedijos demonstracija</h2>
+        <figure>
+          <img src="https://d2zp5xs5cp8zlg.cloudfront.net/image-61785-800.jpg" alt="Katinas">
+          <figcaption>Katinas – puikus HTML vaizdas</figcaption>
+        </figure>
+        <p>Garso elementas:</p>
+        <audio controls>
+          <source src="sample-audio.mp3" type="audio/mpeg">
+          Jūsų naršyklė nepalaiko garso elemento.
+        </audio>
+        <p>Vaizdo elementas:</p>
+        <video width="320" height="240" controls>
+          <source src="sample-video.mp4" type="video/mp4">
+          Jūsų naršyklė nepalaiko vaizdo elemento.
+        </video>
+        <p>Įterptas puslapis:</p>
+        <iframe src="https://example.com" title="Pavyzdinė svetainė" width="300" height="200"></iframe>
+        <p>Objektas:</p>
+        <object data="dummy.txt" width="300" height="100">
+          <p>Objekto turinys negali būti rodomas.</p>
+        </object>
+      </section>
+   
+      <!-- Formų ir įvesties elementai -->
+      <section id="formos">
+        <h2>Formų ir įvesties elementai</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Registracijos forma</legend>
+            <p>
+              <label for="name">Vardas:</label>
+              <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+              <label for="email">El. paštas:</label>
+              <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+              <label for="message">Žinutė:</label>
+              <textarea id="message" name="message"></textarea>
+            </p>
+            <p>
+              <label for="browsers">Pasirinkite naršyklę:</label>
+              <input list="browsers" name="browser" id="browsers">
+              <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+              </datalist>
+            </p>
+            <p>
+              <label for="volume">Garso lygis:</label>
+              <input type="range" id="volume" name="volume" min="0" max="10">
+            </p>
+            <p>Rezultatas: <output name="result" for="name email">0</output></p>
+            <p>
+              <button type="submit">Pateikti</button>
+              <button type="reset">Išvalyti</button>
+            </p>
+          </fieldset>
+        </form>
+        <details>
+          <summary>Detali informacija</summary>
+          <p>Čia pateikiama papildoma informacija, kurią galite išnarplioti.</p>
+        </details>
+      </section>
+   
+      <!-- HTML elementų lentelė -->
+      <section id="lenteles">
+        <h2>HTML elementų lentelė</h2>
+        <table border="1">
+          <caption>Dažniausiai naudojami HTML elementai</caption>
+          <colgroup>
+            <col>
+            <col>
+            <col>
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Elementas</th>
+              <th>Pavadinimas</th>
+              <th>Pavyzdys</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;h1&gt; ... &lt;h6&gt;</td>
+              <td>Antraštės</td>
+              <td>&lt;h1&gt;Pavadinimas&lt;/h1&gt;</td>
+            </tr>
+            <tr>
+              <td>&lt;p&gt;</td>
+              <td>Paragrafas</td>
+              <td>&lt;p&gt;Tekstas&lt;/p&gt;</td>
+            </tr>
+            <tr>
+              <td>&lt;a&gt;</td>
+              <td>Nuoroda</td>
+              <td>&lt;a href="#"&gt;Spausk čia&lt;/a&gt;</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Pabaiga</td>
+            </tr>
+          </tfoot>
+        </table>
+        <p>Tekstas su <s>perbraukta</s>, <del>ištrinta</del> ir <ins>įterpta</ins> žymėjimais.</p>
+        <p>Konsolės išvedimas: <samp>Error: neteisinga komanda</samp></p>
+        <p>Matematinė formulė: <var>x</var> + <var>y</var> = <var>z</var></p>
+        <p>Ilgas žodis su pertrauka: extra<wbr>ordinary.</p>
+        <pre>
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;Pavyzdys&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;p&gt;Kodo pavyzdys&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;
+        </pre>
+        <p>Kodas: <code>&lt;code&gt;...&lt;/code&gt;</code> elementas.</p>
+      </section>
+    </main>
+   
+    <footer>
+      <p>&copy; 2025 HTML Demonstruojamasis. Visos teisės saugomos.</p>
+      <nav>
+        <a href="#top">Grįžti į viršų</a>
+      </nav>
+    </footer>
+  </body>
+  </html>
+   
+    --> -->

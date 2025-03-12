@@ -1,40 +1,4 @@
-Milda Samoškaitė
-Algirdas tai pamaišykit po kokteiliuką kolegoms ta proga 😄
 
-zinoma, Jums koki? 
- 
-Milda Samoškaitė
-Algirdas tai pamaišykit po kokteiliuką kolegoms ta proga 😄
-
-Man iki Kretingos netoli, reiks prasukt paragaut 
- 
- 
-siaip, tarp kitko, as prie baro, ne uz baro 
- 
-penktadienis 18:25 Susitikimas baigėsi: 6 val. 25 min. 40 sek. Rodyti apibendrinimą
-
- 
-07:52 Susitikimas baigėsi: 15 sek. 
-
- 
-07:54 Susitikimas prasidėjo
-
- 
-Labas rytas
- 
-labas rytas
- 
-Rytas labas 
- 
-Agurkai
- 
-Justas Gera šukuosena 
- 
-As dariau bet trinu
- 
-Kdl si pickle negali wb+ rb+ vienu metu dump ir load daryti su vienu open
- 
-O kaip toks variantas? 
  
 def clean_data():
     global biblioteka
